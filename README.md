@@ -44,9 +44,9 @@ Sources: audited consolidated financial statements and official results announce
 
 Verification. The first version of the dataset came from a mix of sources with inconsistent definitions. Every figure was re-checked against audited or officially published results. Checks included:
 
-> Net interest income = interest income less interest expense
-> Total operating income less expenses and provisions = profit before tax
-> Total assets = total liabilities + equity
+> Net interest income = interest income less interest expense,
+> Total operating income less expenses and provisions = profit before tax,
+> Total assets = total liabilities + equity,
 > Calculated ratios compared with bank-reported ratios
 
 Where a bank's full audited statements were unavailable, figures from its official results announcement were used. 
