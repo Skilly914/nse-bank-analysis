@@ -15,13 +15,14 @@ The project answers five questions:
 
 Banks covered;
 KCB Group, Co-operative Bank of Kenya, NCBA Group, Absa Bank Kenya, I&M Group, Standard Chartered Bank Kenya and Diamond Trust Bank Kenya. 
-Equity Group Holdings was excluded because all the required fields could not be sourced consistently from its audited statements. As a result, totals in this project cover seven banks, not the whole listed sector.
+
+I excluded Equity Group Holdings because I could not consistently source all required fields from its audited statements. As a result, totals in this project cover seven banks, not the whole listed sector.
 
 Key findings;
 - Profit more than doubled. Combined profit after tax of the seven banks rose from about KES 84bn in 2021 to about KES 187bn in 2025. 
 - Profit is concentrated. KCB earned KES 233bn of the KES 700bn total over 2021–2025 (33%). With Co-operative Bank (KES 117bn), the top two account for half of all profit.
 - No bank leads on every measure. Absa leads on average ROE (24.6%) and runs a lean cost base, but lends about 91% of its deposits. Standard Chartered Kenya pairs strong returns with the most cautious balance sheet (loan-to-deposit about 49%).
-- Size does not predict returns. Mid-sized banks rank first and second on ROE, the largest bank (KCB) ranks third, and the smallest (Diamond Trust Bank) ranks last.
+- Size does not predict returns. Mid-sized banks rank first and second on ROE, the largest bank (KCB) ranks third, and Diamond Trust Bank ranks last.
 - Efficiency does not explain returns. Diamond Trust Bank has the lowest cost-to-income ratio (about 39%) but the lowest ROA (1.4%) because its margin is thin.
 - Lending and liquidity trade-off. Banks that lend more of their deposits hold less liquidity, but all stay well above the 20% statutory minimum.
 - Loan quality is weak across the sector. Average NPL ratios range from about 10% to 16%, with KCB highest. 
@@ -71,14 +72,19 @@ nse-bank-analysis/
 │   ├── nse_bank_analysis.pbix
 │   └── nse_bank_analysis.pdf
 ├── data/
-│   ├── bank_data.xlsx
-│   └── sources.md
+│   ├── NSE_bank_analysis.xlsx
+│   └── audited company results
 └── images/
-    └── 01_overview.png ... 05_peer_comparison.png
+    └── 01_overview.png 
+    └── 02_profitability.png 
+    └── 03_liquidity.png 
+    └── 04_asset_quality.png 
+    └── 05_peer_comparison.png 
+    
 How to use
 Download dashboard/nse_bank_analysis.pbix.
 Open it in Power BI Desktop, which is free and runs on Windows.
-If Power BI asks for the data source, point it to data/bank_data.xlsx.
+I have also uploaded the Excel file I used to collect the data.
 A PDF export and screenshots are provided for anyone without Power BI.
 
 Limitations;
